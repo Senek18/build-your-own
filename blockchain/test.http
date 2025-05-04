@@ -1,0 +1,12 @@
+### GET request to example server
+GET http://localhost:5000/mine
+
+###
+POST http://localhost:5000/transactions/new
+Content-Type: application/json
+
+{
+    "sender": "8dc0b0df44cf4be5a0f71b9e340b18d8",
+    "recipient": "address",
+    "amount": 5
+}
